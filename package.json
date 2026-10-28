@@ -1,0 +1,28 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack Employee Management System built with React, Vite, Node.js, Express, and MongoDB",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server run test",
+    "test:db": "npm --prefix server run test:db",
+    "setup:db": "npm --prefix server run setup:db",
+    "set:password": "npm --prefix server run set:password",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "employee-management",
+    "mern",
+    "react",
+    "vite",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "",
+  "license": "ISC"
+}
